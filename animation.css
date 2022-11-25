@@ -1,0 +1,42 @@
+                                                                                                                    .div1{
+                                                                                                                    background-color: pink;
+                                                                                                                    height: 200px;
+                                                                                                                    width: 120px;
+                                                                                                                    border-radius: 50%;
+
+                                                                                                                    position: absolute;
+                                                                                                                    animation-name:move_div ;
+                                                                                                                    animation-duration: 5s;
+                                                                                                                    animation-delay: 6s;
+                                                                                                                    animation-iteration-count: infinite;
+                                                                                                                    animation-direction:;
+
+                                                                                                                    }
+
+
+                                                                                                                    @keyframes move_div{
+                                                                                                                    0%
+                                                                                                                    {
+                                                                                                                    left: 0;
+                                                                                                                    top: 0;
+
+                                                                                                                    background-color: brown;
+                                                                                                                    }10%
+                                                                                                                    {
+
+
+                                                                                                                    left: 100px;
+                                                                                                                    top:0px;
+                                                                                                                    }20%{
+
+                                                                                                                        left: 100px;
+                                                                                                                        top: 200px;
+                                                                                                                    }30%{
+
+                                                                                                                        left: 200px;
+                                                                                                                    top:250pxpx;
+                                                                                                                    }40%{
+                                                                                                                    left: 300;
+
+
+                                                                                                                    }
